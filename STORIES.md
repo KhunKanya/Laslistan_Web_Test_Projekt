@@ -76,4 +76,22 @@ Feature: Checkout Process
     Then I should see order confirmation
 ```
 
+## 📂 Project Structure
+```plaintex
+Project/
+├── .venv/                   # Virtuell miljö
+├── features/
+│   ├── add_favorite_marker_feature/
+│   ├── add_new_book_and_author_feature/
+│   ├── none_functional_feature/
+│   ├── remove_favourite_marker_feature/
+│   ├── view_my_favorite_book_list_feature/
+│   ├── pages/
+│   │   └── base_page.py     # Basklasser för sidor
+│   ├── steps/
+│   │   ├── step_*.py        # Stegdefinitioner
+│   └── environment.py       # Testmiljö-konfig
+├── STORIES.md               # Användarhistorier
+└── README.md                # Du är här
 
+```
